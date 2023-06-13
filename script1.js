@@ -4,7 +4,7 @@ const invited = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 
 
 const details = invited.map((ospite, i) => {
     return {
-      tavolo: 'tavolo vip',
+      tavolo: 'Tavolo Vip',
       nome: ospite,
       posto: i + 1
     };
